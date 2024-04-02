@@ -1,3 +1,9 @@
+# pylaunchd_app
+<img width="134" alt="截屏2024-04-02 上午11 28 17" src="https://github.com/MRZEN-X/pylaunchd_app/assets/58650053/52256221-1259-4e99-bead-68b3ac8a69d9">
+use  nuitka3 --standalone --onefile --macos-app-version=2.0 --disable-console  --output-dir=build   --enable-plugin=pyqt5 --macos-create-app-bundle  --assume-yes-for-download   --show-progress   --macos-app-name=com.xxxx.pylaunchd_gui --nofollow-imports  --macos-app-icon=1.png pylaunchd_gui.py
+to create this app 
+only aarch64 mac could use!
+
 # pylaunchd
 MacOS launchd/launchctl GUI
 
